@@ -1,0 +1,10 @@
+#!/bin/env python
+
+# this is a development placeholder, use entrypoints!
+
+import sys
+import multiprocessing
+
+if __name__ == '__main__':
+    multiprocessing.freeze_support()
+    sys.exit(main())

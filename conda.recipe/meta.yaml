@@ -1,0 +1,33 @@
+package:
+  name: hexedd
+  version: master
+
+source:
+  git_url: ../ # if you want to build a particular git commit
+  #path: ../ # if you want to build your working directory
+  git_rev: master # edit to point to specific branch or tag
+
+build:
+  osx_is_app: yes
+  #entry_points:
+  #  - hexedd = hexedd.cli:main
+
+#app:
+#  entry: hexrd gui
+#  summary: High-energy x-ray diffraction analysis
+
+requirements:
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+
+test:
+  imports:
+    - hexrd
+
+about:
+  license: MIT
+  home: https://github.com/praxes/hexedd
+  summary: Analysis of energy-dispersive high-energy x-ray diffraction data
