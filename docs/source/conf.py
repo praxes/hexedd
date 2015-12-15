@@ -16,6 +16,8 @@ import sys
 import os
 import shlex
 
+import hexedd
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -24,8 +26,6 @@ import shlex
 # -- General configuration ------------------------------------------------
 
 ON_RTD = os.environ.get('READTHEDOCS', None) == 'True'
-
-import hexedd
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
@@ -132,7 +132,7 @@ todo_include_todos = True
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'classic'
+#html_theme = 'classic'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
