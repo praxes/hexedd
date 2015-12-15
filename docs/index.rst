@@ -1,22 +1,21 @@
-.. hexedd documentation master file, created by
-   sphinx-quickstart on Tue Dec 15 10:58:49 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+####################
+HEXEDD Documentation
+####################
 
-Welcome to hexedd's documentation!
-==================================
+.. only:: html
+
+   :Release: |release|
+   :Date: |today|
+
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
 
+.. only:: html
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   * :ref:`genindex`
+   * :ref:`modindex`
+   * :ref:`search`
