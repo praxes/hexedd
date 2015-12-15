@@ -1,0 +1,2 @@
+include versioneer.py
+include hexedd/_version.py
