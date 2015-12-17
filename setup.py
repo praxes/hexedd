@@ -31,9 +31,17 @@ class test(Command):
 cmdclass['test'] = test
 
 
+package_data = {
+    'hexedd': [
+        'spectra/data/*.dat'
+        ]
+    }
+
+
 setup(
-    name='hexedd',
-    packages=find_packages(),
-    version=versioneer.get_version(),
-    cmdclass=cmdclass,
+    name = 'hexedd',
+    packages = find_packages(),
+    version = versioneer.get_version(),
+    package_data = package_data,
+    cmdclass = cmdclass,
     )
